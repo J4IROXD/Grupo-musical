@@ -1,0 +1,82 @@
+
+body {
+    background-color: #050508;
+    background-image:
+            radial-gradient(circle at 50% 50%, rgba(20, 20, 50, 0.5) 0%, #050508 100%),
+            url('https://www.transparenttextures.com/patterns/stardust.png'); /* Efecto estrellas */
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.cinzel { font-family: 'Cinzel', serif; }
+
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.border-end-glass {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-form-dark {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.prism-art {
+    max-width: 200px;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
+}
+
+.floyd-input {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.floyd-input:focus {
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
+    border-color: #00d4ff !important;
+}
+
+.input-group-text {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px 0 0 10px !important;
+}
+
+.btn-floyd {
+    background: linear-gradient(45deg, #111, #222);
+    border: 1px solid rgba(0, 212, 255, 0.5);
+    color: white;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.btn-floyd:hover {
+    background: #00d4ff;
+    color: black;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.8);
+}
+
+
+.navbar-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.active { color: white !important; }
+
+.logo-p {
+    border: 2px solid white;
+    padding: 0 8px;
+    margin-right: 5px;
+}
