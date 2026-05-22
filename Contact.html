@@ -10,17 +10,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-dark pt-4">
+<body class="bg-black"> <nav class="navbar navbar-expand-lg navbar-dark pt-4">
     <div class="container">
         <a class="navbar-brand fw-bold" href="index.html">
             <span class="logo-p" style="border: 2px solid white; padding: 0 8px; margin-right: 5px;">P</span> PINK FLOYD
         </a>
 
-        <div class="ms-auto d-none d-lg-flex gap-4 navbar-links">
-            <a href="menu.html" class="text-white-50 text-decoration-none">Inicio</a>
-            <a href="Contact.html" class="text-white border-bottom text-decoration-none pb-1">Contacto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ms-auto gap-3 pt-3 pt-lg-0">
+                <a href="menu.html" class="nav-link text-white-50">Inicio</a>
+                <a href="Contact.html" class="nav-link text-white border-bottom border-lg-0 pb-1">Contacto</a>
+            </div>
         </div>
     </div>
 </nav>
@@ -28,15 +32,15 @@
 <main class="container d-flex align-items-center justify-content-center min-vh-100 py-5">
     <div class="row glass-container shadow-lg w-100 overflow-hidden" style="background: rgba(255,255,255,0.03); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px;">
 
-        <div class="col-lg-5 p-5 d-flex flex-column justify-content-center" style="border-right: 1px solid rgba(255,255,255,0.1);">
+        <div class="col-lg-5 p-5 d-flex flex-column justify-content-center border-md-bottom border-lg-end" style="border-color: rgba(255,255,255,0.1) !important;">
             <div class="text-center mb-4">
-                <img src="assets/img/prisma.jpg">
+                <img src="assets/img/prisma.jpg" class="img-fluid rounded-3" alt="Prisma">
             </div>
 
             <h2 class="text-white mb-3" style="font-family: 'Cinzel', serif;">Envía tus pensamientos...</h2>
             <p class="text-white-50 mb-4">a través del cosmos y el tiempo.</p>
 
-            <div class="d-flex flex-column gap-3">
+            <div class="d-flex flex-column gap-3 text-white-50">
                 <p class="mb-1"><i class="fas fa-play-circle text-info me-2"></i> cosmic.thoughts@pinkfloyd.com</p>
                 <p class="mb-1"><i class="fas fa-history me-2 text-info"></i> 1973 - 1994 and beyond...</p>
                 <p class="mb-1"><i class="fas fa-hand-peace me-2 text-info"></i> Conexión espiritual</p>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pink Floyd</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 </head>
@@ -12,13 +13,19 @@
             <a class="navbar-brand fw-bold" href="index.html">
                 <span class="logo-p" style="border: 2px solid white; padding: 0 8px; margin-right: 5px;">P</span> PINK FLOYD
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text-white border-bottom text-decoration-none pb-1" href="menu.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contacto</a></li>
+                <ul class="navbar-nav ms-auto gap-3 pt-3 pt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white border-bottom border-lg-0 pb-1" href="menu.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50" href="Contact.html">Contacto</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -74,10 +81,11 @@
                     <h5 class="text-white fw-bold fs-6">Delicate Sound of Thunder</h5>
                 </div>
             </div>
-        </div> </div>
+        </div>
+    </div>
+
     <div class="container my-5 py-4 text-center">
         <hr class="border-secondary opacity-25 w-50 mx-auto mb-5">
-
         <h3 class="text-white fw-light mb-3">Ponte en contacto con nosotros para contrataciones.</h3>
         <a href="Contact.html" class="btn btn-outline-light btn-lg px-5 py-2 rounded-pill fw-bold text-uppercase fs-6 tracking-wider">
             Contáctanos
@@ -87,5 +95,7 @@
 <footer class="text-center py-4 text-white-50 small">
     <p>&copy; 2026 PinkFloyd. Todos los derechos reservados.</p>
 </footer>
+
+<script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
