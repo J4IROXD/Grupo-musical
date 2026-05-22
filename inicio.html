@@ -7,17 +7,17 @@
 </head>
 <body class="bg-black">
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm sticky-top bg-black">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm sticky-top pt-4">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">
-                <i class="bi bi-heart-pulse-fill text-danger me-2"></i>Pink Floyd
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span class="logo-p" style="border: 2px solid white; padding: 0 8px; margin-right: 5px;">P</span> PINK FLOYD
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white border-bottom text-decoration-none pb-1" href="inicio.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="Contact.html">Contacto</a></li>
                 </ul>
             </div>
@@ -25,7 +25,67 @@
     </nav>
 </header>
 <main>
+    <div class="container py-4 d-flex flex-column justify-content-center align-items-center">
+        <img src="assets/img/pinkfloidacacotorron.png"
+             alt="Pink Floyd El Legado"
+             class="img-fluid rounded-4 shadow"
+             style="max-width: 800px; width: 100%; height: auto;">
+        <h1 class="display-4 fw-bold" style="color: white;">PINK FLOYD</h1>
+        <p class="display-6 fw-bold" style="color: #565e64;">EL LEGADO</p>
+    </div>
 
+    <div class="container my-5 d-flex flex-column justify-content-center align-items-center">
+        <p class="fs-4 text-white fw-light lh-base text-center" style="max-width: 700px; font-style: italic;">"Un viaje a través del tiempo y el sonido. Revive la psicodelia y el rock progresivo que cambiaron la historia de la música para siempre"</p>
+    </div>
+
+    <div class="container my-5 text-center">
+        <h2 class="display-6 fw-bold text-white mb-4">ESCUCHA NUESTRAS NUEVAS CANCIONES</h2>
+        <p class="text-secondary mb-5">Disfruta de nuestros temas y vive la experiencia.</p>
+
+        <div class="row justify-content-center g-4">
+            <div class="col-6 col-md-3">
+                <div class="card bg-transparent border-0">
+                    <img src="assets/img/si.jpg" alt="Álbum 1" class="img-fluid rounded-3 shadow-lg mb-3"
+                         style="height: 250px; width: 100%; object-fit: cover;">
+                    <h5 class="text-white fw-bold fs-6">Wish You Were Here</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="card bg-transparent border-0">
+                    <img src="assets/img/darkpink.jpg" alt="Álbum 2" class="img-fluid rounded-3 shadow-lg mb-3"
+                         style="height: 250px; width: 100%; object-fit: cover;">
+                    <h5 class="text-white fw-bold fs-6">The Dark Side Of The Moon</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="card bg-transparent border-0">
+                    <img src="assets/img/live.jpg" alt="Álbum 3" class="img-fluid rounded-3 shadow-lg mb-3"
+                         style="height: 250px; width: 100%; object-fit: cover;">
+                    <h5 class="text-white fw-bold fs-6">Live at Knebworth 1990</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="card bg-transparent border-0">
+                    <img src="assets/img/delicate.jpg" alt="Álbum 4" class="img-fluid rounded-3 shadow-lg mb-3"
+                         style="height: 250px; width: 100%; object-fit: cover;">
+                    <h5 class="text-white fw-bold fs-6">Delicate Sound of Thunder</h5>
+                </div>
+            </div>
+        </div> </div>
+    <div class="container my-5 py-4 text-center">
+        <hr class="border-secondary opacity-25 w-50 mx-auto mb-5">
+
+        <h3 class="text-white fw-light mb-3">Ponte en contacto con nosotros para contrataciones.</h3>
+        <a href="Contact.html" class="btn btn-outline-light btn-lg px-5 py-2 rounded-pill fw-bold text-uppercase fs-6 tracking-wider">
+            Contáctanos
+        </a>
+    </div>
 </main>
+<footer class="text-center py-4 text-white-50 small">
+    <p>&copy; 2026 PinkFloyd. Todos los derechos reservados.</p>
+</footer>
 </body>
 </html>
